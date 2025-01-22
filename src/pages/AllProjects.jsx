@@ -22,7 +22,7 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
   return (
     <>
       <Helmet>
-        <title>Projects | Gustavo Oliveira P Portfolio</title>
+        <title>Projects</title>
         <meta name="description" content="BE REAL - the portfolio of Gustavo Oliveira P, showcasing Web, Machine Learning, Deep Learning, and Python projects." />
         <meta name="keywords" content="BE REAL, Gustavo Oliveira P, AI/ML, Web Development, Portfolio, Projects, sibi, siddharth" />
         <meta name="author" content="Gustavo Oliveira P" />
@@ -52,7 +52,7 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
             openModal={openModal} 
             setOpenModal={setOpenModal} 
             defaultfilter="all"
-            projectFilters={['all', 'Web', 'Deep Learning', 'Machine Learning']}
+            // projectFilters={['all', 'Web', 'Deep Learning', 'Machine Learning']}
             ViewAllCard={0}
             ShowTitle={null}
             IntroText={1}

@@ -31,6 +31,7 @@ const App = () => {
       Bio: {
         name: "Andrii Humen",
         roles: "Python & AI Specialist",
+        resume: "https://flowcv.com/resume/ql3le7bs5b",
         description: "Senior Python Developer with expertise in robust web applications and AI solutions. " + 
         "Proficient in Django, Flask, and modern frontend frameworks like React and Vue.js. " + 
         "Experienced in delivering scalable, secure full-stack apps and deploying on AWS, Azure, and GCP. " + 
@@ -147,9 +148,9 @@ const App = () => {
         },
         {
           id: "2",
-          company: "Linx",
+          company: "Synodus",
           role: "Full Stack & AI Developer",
-          img: "/icons/linx-company-logo.webp",
+          img: "/icons/synodus-company-logo.jpg",
           desc: "Contributed to Architect and develop multiple web applications, " + 
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
@@ -158,9 +159,9 @@ const App = () => {
         }, 
         {
           id: "3",
-          company: "BRQ Digital Solutions",
+          company: "CodLUCK Technology ., JSC",
           role: "Python Developer",
-          img: "/icons/rb-company-logo.jfif",
+          img: "/icons/codluck-company-logo.jpg",
           desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
           "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
           date: "Jan 2013 – Nov 2015",
@@ -209,7 +210,7 @@ const App = () => {
           description: "Developed and launched a cutting-edge AI image generation platform utilizing the Stable Diffusion model and GANs, " + 
           "allowing users to effortlessly create complex images with simple text prompts and unlocking unparalleled creative possibilities " + 
           "for digital art, advertising, and marketing.",
-          tags: ["Python", "OpenAI", "Stable Diffusion", "GAN", "Machine Learning"],
+          tags: ["Python", "OpenAI", "Stable Diffusion", "GAN", "Machine Learning", "Next.js"],
           date: "Mar 2023 - Feb 2024",
           webapp: "https://www.piclumen.com/"
         }, 
@@ -221,7 +222,7 @@ const App = () => {
           description: "Virtual Voice Assistant is a project that utilizes machine learning and " + 
           "natural language processing to enable users to control their devices using voice commands. " + 
           "Technologies used include TensorFlow, Keras, various Python libraries and RESTful APIs.",
-          tags: ["Python", "OpenAI", "NLP", "AI Agent", "Speech-to-Text"],
+          tags: ["Python", "OpenAI", "NLP", "AI Agent", "Speech-to-Text", "Nuxt.js"],
           date: "Apr 2021 - Aug 2021",
           webapp: "https://www.piclumen.com/"
         }
