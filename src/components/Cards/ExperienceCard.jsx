@@ -150,7 +150,7 @@ const ExperienceCard = ({ experience }) => {
                 <a href={experience.link} target="_blank" rel="noopener noreferrer">
                     <Image 
                         src={experience.img} 
-                        alt={`Logo for ${experience.role} role at ${experience.company} - Sibi Siddharth S`} 
+                        alt={`Logo for ${experience.role} role at ${experience.company}`} 
                     />
                 </a>
                 <Body>

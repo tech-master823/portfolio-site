@@ -29,7 +29,7 @@ const App = () => {
   useEffect(() => {
     setFirebaseData({
       Bio: {
-        name: "Gustavo Oliveira P",
+        name: "Andrii Humen",
         roles: "Python & AI Specialist",
         description: "Senior Python Developer with expertise in robust web applications and AI solutions. " + 
         "Proficient in Django, Flask, and modern frontend frameworks like React and Vue.js. " + 
@@ -136,14 +136,14 @@ const App = () => {
         // }
         {
           id: "1",
-          company: "Positivo Tecnologia",
+          company: "Impressit",
           role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
-          img: "/icons/positive-company-logo.png",
+          img: "/icons/impressit-company-logo.jpg",
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
           date: "Mar 2020 - Present",
-          skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker"]
+          skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker", "Next,js", "Nuxt.js"]
         },
         {
           id: "2",
