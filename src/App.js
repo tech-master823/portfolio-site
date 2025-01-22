@@ -102,6 +102,38 @@ const App = () => {
         },
       ], 
       experiences: [
+        // {
+        //   id: "1",
+        //   company: "Positivo Tecnologia",
+        //   role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
+        //   img: "/icons/positive-company-logo.png",
+        //   desc: "Actively engaged in developing innovative AI services, " + 
+        //   "including a healthcare chatbot and LLM-powered microservices, " + 
+        //   "with a focus on enhancing data management and user satisfaction through cloud platforms.",
+        //   date: "Mar 2020 - Present",
+        //   skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker"]
+        // },
+        // {
+        //   id: "2",
+        //   company: "Linx",
+        //   role: "Full Stack & AI Developer",
+        //   img: "/icons/linx-company-logo.webp",
+        //   desc: "Contributed to Architect and develop multiple web applications, " + 
+        //   "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
+        //   "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
+        //   date: "Jan 2016 – Dec 2019",
+        //   skills: ["Django", "Flask", "FastAPI", "React", "Vue.js", "OpenAI", "Docker", "Kubernetes"]
+        // }, 
+        // {
+        //   id: "3",
+        //   company: "BRQ Digital Solutions",
+        //   role: "Python Developer",
+        //   img: "/icons/rb-company-logo.jfif",
+        //   desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
+        //   "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
+        //   date: "Jan 2013 – Nov 2015",
+        //   skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
+        // }
         {
           id: "1",
           company: "Positivo Tecnologia",
