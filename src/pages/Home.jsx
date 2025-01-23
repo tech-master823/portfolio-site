@@ -32,7 +32,7 @@ const Home = ({ firebaseData, openModal, setOpenModal }) => {
 
       <Navbar 
         navbarData={firebaseData.Bio || {}} 
-        sections={['About', 'Skills', 'Experience', 'Projects']} 
+        sections={['About', 'Skills', 'Experience', 'Projects', 'Education']} 
       />
 
       <HeroSection 
@@ -60,15 +60,15 @@ const Home = ({ firebaseData, openModal, setOpenModal }) => {
       </Suspense>
 
       <Wrapper>
-        {/* <EducationTimeline 
+        <EducationTimeline 
           education={firebaseData.education || []} 
-        /> */}
+        />
         <Contact />
       </Wrapper>
       
       <Footer 
         footerData={firebaseData.Bio || {}} 
-        links={["About", "Skills", "Experience", "Projects"]} 
+        links={["About", "Skills", "Experience", "Projects", "Education"]} 
       />
 
       {openModal.state && (

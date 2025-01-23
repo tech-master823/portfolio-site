@@ -29,7 +29,7 @@ const App = () => {
   useEffect(() => {
     setFirebaseData({
       Bio: {
-        name: "Andrii Humen",
+        name: "Gustavo Oliveira P",
         roles: "Python & AI Specialist",
         resume: "https://flowcv.com/resume/ql3le7bs5b",
         description: "Senior Python Developer with expertise in robust web applications and AI solutions. " + 
@@ -103,54 +103,22 @@ const App = () => {
         },
       ], 
       experiences: [
-        // {
-        //   id: "1",
-        //   company: "Positivo Tecnologia",
-        //   role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
-        //   img: "/icons/positive-company-logo.png",
-        //   desc: "Actively engaged in developing innovative AI services, " + 
-        //   "including a healthcare chatbot and LLM-powered microservices, " + 
-        //   "with a focus on enhancing data management and user satisfaction through cloud platforms.",
-        //   date: "Mar 2020 - Present",
-        //   skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker"]
-        // },
-        // {
-        //   id: "2",
-        //   company: "Linx",
-        //   role: "Full Stack & AI Developer",
-        //   img: "/icons/linx-company-logo.webp",
-        //   desc: "Contributed to Architect and develop multiple web applications, " + 
-        //   "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
-        //   "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
-        //   date: "Jan 2016 – Dec 2019",
-        //   skills: ["Django", "Flask", "FastAPI", "React", "Vue.js", "OpenAI", "Docker", "Kubernetes"]
-        // }, 
-        // {
-        //   id: "3",
-        //   company: "BRQ Digital Solutions",
-        //   role: "Python Developer",
-        //   img: "/icons/rb-company-logo.jfif",
-        //   desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
-        //   "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
-        //   date: "Jan 2013 – Nov 2015",
-        //   skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
-        // }
         {
           id: "1",
-          company: "Impressit",
+          company: "Positivo Tecnologia",
           role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
-          img: "/icons/impressit-company-logo.jpg",
+          img: "/icons/positive-company-logo.png",
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
           date: "Mar 2020 - Present",
-          skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker", "Next,js", "Nuxt.js"]
+          skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker"]
         },
         {
           id: "2",
-          company: "Synodus",
+          company: "Linx",
           role: "Full Stack & AI Developer",
-          img: "/icons/synodus-company-logo.jpg",
+          img: "/icons/linx-company-logo.webp",
           desc: "Contributed to Architect and develop multiple web applications, " + 
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
@@ -159,14 +127,46 @@ const App = () => {
         }, 
         {
           id: "3",
-          company: "CodLUCK Technology ., JSC",
+          company: "BRQ Digital Solutions",
           role: "Python Developer",
-          img: "/icons/codluck-company-logo.jpg",
+          img: "/icons/rb-company-logo.jfif",
           desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
           "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
           date: "Jan 2013 – Nov 2015",
           skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
         }
+        // {
+        //   id: "1",
+        //   company: "Impressit",
+        //   role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
+        //   img: "/icons/impressit-company-logo.jpg",
+        //   desc: "Actively engaged in developing innovative AI services, " + 
+        //   "including a healthcare chatbot and LLM-powered microservices, " + 
+        //   "with a focus on enhancing data management and user satisfaction through cloud platforms.",
+        //   date: "Mar 2020 - Present",
+        //   skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker", "Next,js", "Nuxt.js"]
+        // },
+        // {
+        //   id: "2",
+        //   company: "Synodus",
+        //   role: "Full Stack & AI Developer",
+        //   img: "/icons/synodus-company-logo.jpg",
+        //   desc: "Contributed to Architect and develop multiple web applications, " + 
+        //   "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
+        //   "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
+        //   date: "Jan 2016 – Dec 2019",
+        //   skills: ["Django", "Flask", "FastAPI", "React", "Vue.js", "OpenAI", "Docker", "Kubernetes"]
+        // }, 
+        // {
+        //   id: "3",
+        //   company: "CodLUCK Technology ., JSC",
+        //   role: "Python Developer",
+        //   img: "/icons/codluck-company-logo.jpg",
+        //   desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
+        //   "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
+        //   date: "Jan 2013 – Nov 2015",
+        //   skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
+        // }
       ],
       projects: [
         {
@@ -199,7 +199,7 @@ const App = () => {
           description: "Developed 'ChatSoC,' an advanced chatbot using OpenAI's API in Python, " + 
           "featuring capabilities such as text-to-voice output, voice-to-text input, " + 
           "QR login mechanism using OpenCV, AI image generation with DALL-E, YouTube video downloading, and Wikipedia content referencing.",
-          tags: ["Python", "NLP", "OpenAI GPT", "Langchain", "Pinecone"],
+          tags: ["Python", "NLP", "OpenAI GPT", "Langchain", "RAG", "Pinecone"],
           date: "Jul 2023 - Sept 2023"
         }, 
         {
@@ -230,10 +230,26 @@ const App = () => {
       education: [
         {
           id: "1",
+          school: "FGV/EBAPE",
+          degree: "Master of Technology - MTech, Artificial Intelligent",
+          img: "/icons/fgv-university.jfif",
+          date: "Aug 2017 – Feb 2019",
+          grade: "87.83%",
+          desc: "In this course, I focused on developing an AI web service platform using " + 
+          "technologies like OpenAI, GPT, LLM, and Machine Learning, enhancing user experience and automating tasks through projects and collaboration with peers, " + 
+          "focusing on natural language processing and computer vision for customized services."
+        },
+        {
+          id: "2",
           school: "Universidade Federal do Pampa",
-          degree: "Master's Degree in Computer Science (UNIPAMPA)",
-          img: "/icons/university.jfif"
-        }
+          degree: "Bachelor of Computer Science (UNIPAMPA)",
+          img: "/icons/university.jfif",
+          date: "Mar 2008 – Dec 2012",
+          grade: "97.76%",
+          desc: "I gained in-depth knowledge of programming languages like C++, Python, and JavaScript, " + 
+          "dedicating significant effort to mastering Python and its scientific libraries, " + 
+          "while also exploring backend technologies like Django and Flask to enhance my web development skills."
+        },
       ]
     })
   }, []);
