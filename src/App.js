@@ -111,7 +111,7 @@ const App = () => {
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
-          date: "Mar 2020 - Present",
+          date: "Mar 2021 - Present",
           skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker"]
         },
         {
@@ -122,7 +122,7 @@ const App = () => {
           desc: "Contributed to Architect and develop multiple web applications, " + 
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
-          date: "Jan 2016 – Dec 2019",
+          date: "Jan 2018 – Dec 2020",
           skills: ["Django", "Flask", "FastAPI", "React", "Vue.js", "OpenAI", "Docker", "Kubernetes"]
         }, 
         {
@@ -132,7 +132,7 @@ const App = () => {
           img: "/icons/rb-company-logo.jfif",
           desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
           "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
-          date: "Jan 2013 – Nov 2015",
+          date: "Jan 2015 – Nov 2017",
           skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
         }
         // {
@@ -200,7 +200,8 @@ const App = () => {
           "featuring capabilities such as text-to-voice output, voice-to-text input, " + 
           "QR login mechanism using OpenCV, AI image generation with DALL-E, YouTube video downloading, and Wikipedia content referencing.",
           tags: ["Python", "NLP", "OpenAI GPT", "Langchain", "RAG", "Pinecone"],
-          date: "Jul 2023 - Sept 2023"
+          date: "Jul 2023 - Sept 2023",
+          github: "https://github.com/smart-coder997/ChatSoc",
         }, 
         {
           id: "3",
@@ -224,7 +225,7 @@ const App = () => {
           "Technologies used include TensorFlow, Keras, various Python libraries and RESTful APIs.",
           tags: ["Python", "OpenAI", "NLP", "AI Agent", "Speech-to-Text", "Nuxt.js"],
           date: "Apr 2021 - Aug 2021",
-          webapp: "https://www.piclumen.com/"
+          github: "https://github.com/smart-coder997/virtual-voice-assistant",
         }
       ],
       education: [
@@ -233,7 +234,7 @@ const App = () => {
           school: "FGV/EBAPE",
           degree: "Master of Technology - MTech, Artificial Intelligent",
           img: "/icons/fgv-university.jfif",
-          date: "Aug 2017 – Feb 2019",
+          date: "Aug 2020 – Nov 2021",
           grade: "87.83%",
           desc: "In this course, I focused on developing an AI web service platform using " + 
           "technologies like OpenAI, GPT, LLM, and Machine Learning, enhancing user experience and automating tasks through projects and collaboration with peers, " + 
@@ -244,7 +245,7 @@ const App = () => {
           school: "Universidade Federal do Pampa",
           degree: "Bachelor of Computer Science (UNIPAMPA)",
           img: "/icons/university.jfif",
-          date: "Mar 2008 – Dec 2012",
+          date: "Mar 2010 – Dec 2014",
           grade: "97.76%",
           desc: "I gained in-depth knowledge of programming languages like C++, Python, and JavaScript, " + 
           "dedicating significant effort to mastering Python and its scientific libraries, " + 
