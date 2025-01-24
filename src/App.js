@@ -112,7 +112,7 @@ const App = () => {
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
           date: "Mar 2021 - Present",
-          skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker"]
+          skills: ["OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "Docker"]
         },
         {
           id: "2",
