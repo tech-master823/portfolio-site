@@ -105,9 +105,9 @@ const App = () => {
       experiences: [
         {
           id: "1",
-          company: "Positivo Tecnologia",
+          company: "IConflux Technologies Pvt. Ltd.",
           role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
-          img: "/icons/positive-company-logo.png",
+          img: "/icons/iconflux-company-logo.png",
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
