@@ -43,14 +43,14 @@ const App = () => {
           skills: [
             { name: "OpenAI", image: "/icons/chatgpt-svg.svg" }, 
             { name: "Langchain", image: "/icons/chain-image.png" },
-            { name: "LlaMA", image: "/icons/llama-image.png" },
+            { name: "LLaMA", image: "/icons/llama-image.png" },
             { name: "RAG System", image: "/icons/setting-svg.svg" },
             { name: "NLP", image: "/icons/nlp-svg.svg" },
             { name: "Stable Diffusion", image: "/icons/stable-image.png" },
           ]
         },
         {
-          title: "AI/ML",
+          title: "AI/ML Tools",
           skills: [
             { name: "Python", image: "/icons/python-svg.svg" }, 
             { name: "Tensorflow", image: "/icons/tensorflow-svg.svg" },
@@ -103,6 +103,38 @@ const App = () => {
         },
       ], 
       experiences: [
+        // {
+        //   id: "1",
+        //   company: "IConflux Technologies Pvt. Ltd.",
+        //   role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
+        //   img: "/icons/iconflux-company-logo.png",
+        //   desc: "Actively engaged in developing innovative AI services, " + 
+        //   "including a healthcare chatbot and LLM-powered microservices, " + 
+        //   "with a focus on enhancing data management and user satisfaction through cloud platforms.",
+        //   date: "Mar 2021 - Present",
+        //   skills: ["OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "Docker"]
+        // },
+        // {
+        //   id: "2",
+        //   company: "Linx",
+        //   role: "Full Stack & AI Developer",
+        //   img: "/icons/linx-company-logo.webp",
+        //   desc: "Contributed to Architect and develop multiple web applications, " + 
+        //   "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
+        //   "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
+        //   date: "Jan 2018 – Dec 2020",
+        //   skills: ["Django", "Flask", "FastAPI", "React", "Vue.js", "OpenAI", "Docker", "Kubernetes"]
+        // }, 
+        // {
+        //   id: "3",
+        //   company: "BRQ Digital Solutions",
+        //   role: "Python Developer",
+        //   img: "/icons/rb-company-logo.jfif",
+        //   desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
+        //   "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
+        //   date: "Jan 2015 – Nov 2017",
+        //   skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
+        // }
         {
           id: "1",
           company: "IConflux Technologies Pvt. Ltd.",
@@ -111,62 +143,30 @@ const App = () => {
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
-          date: "Mar 2021 - Present",
-          skills: ["OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "Docker"]
+          date: "Mar 2020 - Present",
+          skills: ["OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "RAG", "Next.js"]
         },
         {
           id: "2",
-          company: "Linx",
+          company: "Synodus",
           role: "Full Stack & AI Developer",
-          img: "/icons/linx-company-logo.webp",
+          img: "/icons/synodus-company-logo.jpg",
           desc: "Contributed to Architect and develop multiple web applications, " + 
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
-          date: "Jan 2018 – Dec 2020",
+          date: "Jan 2016 – Dec 2019",
           skills: ["Django", "Flask", "FastAPI", "React", "Vue.js", "OpenAI", "Docker", "Kubernetes"]
         }, 
         {
           id: "3",
-          company: "BRQ Digital Solutions",
+          company: "CodLUCK Technology ., JSC",
           role: "Python Developer",
-          img: "/icons/rb-company-logo.jfif",
+          img: "/icons/codluck-company-logo.jpg",
           desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
           "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
-          date: "Jan 2015 – Nov 2017",
+          date: "Jan 2013 – Nov 2015",
           skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
         }
-        // {
-        //   id: "1",
-        //   company: "Impressit",
-        //   role: "Senior Python Developer – Full-Stack, AI & Cloud Solutions",
-        //   img: "/icons/impressit-company-logo.jpg",
-        //   desc: "Actively engaged in developing innovative AI services, " + 
-        //   "including a healthcare chatbot and LLM-powered microservices, " + 
-        //   "with a focus on enhancing data management and user satisfaction through cloud platforms.",
-        //   date: "Mar 2020 - Present",
-        //   skills: ["OpenAI", "GPT", "Langchain", "LlaMA 3", "AWS", "Azure", "Docker", "Next,js", "Nuxt.js"]
-        // },
-        // {
-        //   id: "2",
-        //   company: "Synodus",
-        //   role: "Full Stack & AI Developer",
-        //   img: "/icons/synodus-company-logo.jpg",
-        //   desc: "Contributed to Architect and develop multiple web applications, " + 
-        //   "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
-        //   "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
-        //   date: "Jan 2016 – Dec 2019",
-        //   skills: ["Django", "Flask", "FastAPI", "React", "Vue.js", "OpenAI", "Docker", "Kubernetes"]
-        // }, 
-        // {
-        //   id: "3",
-        //   company: "CodLUCK Technology ., JSC",
-        //   role: "Python Developer",
-        //   img: "/icons/codluck-company-logo.jpg",
-        //   desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
-        //   "including a sophisticated Python web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
-        //   date: "Jan 2013 – Nov 2015",
-        //   skills: ["Django", "Tensorflow", "Pandas", "Numpy", "Docker"]
-        // }
       ],
       projects: [
         {
@@ -187,7 +187,7 @@ const App = () => {
           description: "Crafted an innovative AI-powered assistant chatbot for Fahertybrand, an American clothing sales e-commerce platform, " + 
           "that revolutionized the user search experience. Enhanced the platform's ability to seamlessly connect shoppers with their desired products, " + 
           "resulting in a significant boost in user engagement and overall satisfaction. ",
-          tags: ["React.js", "Firebase", "OpenAI", "GPT", "Pinecone", "Langchain", "LlaMA"],
+          tags: ["React.js", "Firebase", "OpenAI", "GPT", "Pinecone", "Langchain", "LLaMA"],
           date: "Feb 2018 - Nov 2018",
           webapp: "https://www.fahertybrand.com"
         }, 
@@ -242,9 +242,9 @@ const App = () => {
         },
         {
           id: "2",
-          school: "Universidade Federal do Pampa",
+          school: "Can Tho University of Technology",
           degree: "Bachelor of Computer Science (UNIPAMPA)",
-          img: "/icons/university.jfif",
+          img: "/icons/can-tho-university.png",
           date: "Mar 2010 – Dec 2014",
           grade: "97.76%",
           desc: "I gained in-depth knowledge of programming languages like C++, Python, and JavaScript, " + 
