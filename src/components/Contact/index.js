@@ -226,18 +226,7 @@ const Contact = () => {
             required
             aria-label="Message"
           />
-          <TcContainer>
-            <input
-              type="checkbox"
-              checked={termsAccepted}
-              onChange={(e) => setTermsAccepted(e.target.checked)}
-              aria-label="Accept terms and conditions"
-            />
-            <TcText>
-              I agree with the <TC onClick={handleClick} >Terms and Conditions</TC>
-            </TcText>
-          </TcContainer>
-          <ContactButton type="submit" value="Send" disabled={!termsAccepted} aria-label="Send Email" />
+          <ContactButton type="submit" value="Send" disabled={false} aria-label="Send Email" />
         </ContactForm>
         <Snackbar
           open={open.open}

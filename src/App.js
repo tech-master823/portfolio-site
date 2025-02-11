@@ -84,12 +84,12 @@ const App = () => {
         {
           title: "Database & Clouding",
           skills: [
-            { name: "MySQL", image: "/icons/mysql-svg.svg" },
-            { name: "PostgreSQL", image: "/icons/postgresql-svg.svg" },
-            { name: "Firebase", image: "/icons/firebase-svg.svg" },
-            { name: "GCP", image: "/icons/google-cloud-svg.svg" },
-            { name: "AWS", image: "/icons/aws-svg.svg" },
             { name: "Azure", image: "/icons/azure-svg.svg" },
+            { name: "AWS", image: "/icons/aws-svg.svg" },
+            { name: "GCP", image: "/icons/google-cloud-svg.svg" },
+            { name: "Firebase", image: "/icons/firebase-svg.svg" },
+            { name: "PostgreSQL", image: "/icons/postgresql-svg.svg" },
+            { name: "MySQL", image: "/icons/mysql-svg.svg" },
           ]
         },
         {
@@ -174,20 +174,31 @@ const App = () => {
           ontop: 1,
           image: "/image/erp.png",
           title: "ERPNext - ERP System",
-          description: "Leveraged AI/ML in our ERP system to automate data entry, optimize supply chain management, and forecast inventory needs through predictive analytics. " + 
+          description: "Leveraged full stack development in our ERP system to automate data entry, optimize supply chain management, and forecast inventory needs through predictive analytics. " + 
           "By harnessing machine learning, we can now predict demand fluctuations and adjust inventory levels proactively.",
-          tags: ["Django", "ERP Platform", "ERPNext", "Machine Learning", "OpenAI"],
-          date: "Mar 2016 - Jun 2017"
+          tags: ["Flask", "React", "Electron", "ERP Platform", "ERPNext"],
+          responsibilities: [
+            "Designed seamless and user-friendly UI suitable to business goal - sale of computer.",
+            "Implemented complex backend(Flask) logic for inventory & sale forecast management, and established robust backend system.",
+            "Designed efficient model for storing and handing various type of data, and integrated RESTful APIs of backend to frontend(React).",
+          ],
+          date: "Mar 2016 - Jun 2017",
+          github: "https://github.com/tech-master823/erp-system",
         }, 
         {
           id: "6",
-          ontop: 1,
+          ontop: 0,
           image: "/image/fahertybrand.jpeg",
           title: "AI Assistant for Fahertybrand",
           description: "Crafted an innovative AI-powered assistant chatbot for Fahertybrand, an American clothing sales e-commerce platform, " + 
           "that revolutionized the user search experience. Enhanced the platform's ability to seamlessly connect shoppers with their desired products, " + 
           "resulting in a significant boost in user engagement and overall satisfaction. ",
-          tags: ["React.js", "Firebase", "OpenAI", "GPT", "Pinecone", "Langchain", "LLaMA"],
+          responsibilities: [
+            "Researched and Selected about LLM and its framework suitable to be used for integrate AI chatbot to Fahertybrand's existing e-commerce systems.",
+            "Extract key informations from existing e-commerce system, and store it to Vector Database - Pinecone for trainning LLM.",
+            "Established RAG system for integrating AI chatbot to platform, by uilizing  Langchain, GPT model and LLaMA."
+          ],
+          tags: ["React.js", "Firebase", "RAG", "GPT", "Pinecone", "Langchain", "LLaMA"],
           date: "Feb 2018 - Nov 2018",
           webapp: "https://www.fahertybrand.com"
         }, 
@@ -199,7 +210,12 @@ const App = () => {
           description: "Developed 'ChatSoC,' an advanced chatbot using OpenAI's API in Python, " + 
           "featuring capabilities such as text-to-voice output, voice-to-text input, " + 
           "QR login mechanism using OpenCV, AI image generation with DALL-E, YouTube video downloading, and Wikipedia content referencing.",
-          tags: ["Python", "NLP", "OpenAI GPT", "Langchain", "RAG", "Pinecone"],
+          responsibilities: [
+            "Developed backend logic using Python to power chatbot functionalities.",
+            "Integrated OpenAI API for conversational AI and DALL·E for AI-generated image capabilities.",
+            "Developed a QR login system for secure user access and integrated a YouTube video downloading feature."
+          ],
+          tags: ["Python", "NLP", "OpenAI GPT", "Langchain", "DALL-E", "Pinecone"],
           date: "Jul 2023 - Sept 2023",
           github: "https://github.com/smart-coder997/ChatSoc",
         }, 
@@ -208,24 +224,67 @@ const App = () => {
           ontop: 1,
           image: "/image/image-generator.png",
           title: "AI Image Generator - GAN",
-          description: "Developed and launched a cutting-edge AI image generation platform utilizing the Stable Diffusion model and GANs, " + 
-          "allowing users to effortlessly create complex images with simple text prompts and unlocking unparalleled creative possibilities " + 
+          description: "Developed and launched a cutting-edge AI Art Service platform utilizing the Stable Diffusion model and GANs, " + 
+          "allowing users to effortlessly do anything related to smart art with simple text prompts and unlocking unparalleled creative possibilities " + 
           "for digital art, advertising, and marketing.",
           tags: ["Python", "OpenAI", "Stable Diffusion", "GAN", "Machine Learning", "Next.js"],
+          responsibilities: [
+            "Made sure detailed requirements of entire project, and designed seamless and user-friendly frontend with Next.js",
+            "Built Python based backend - Django for integrating Stable Diffusion model, and made RESTful API for communicating between frontend and backend.",
+            "Developed various art service such as AI Image Genearation, Upscaler, Uncroper, etc by utilizing Generative Adversarial Network(GAN).",
+          ],
           date: "Mar 2023 - Feb 2024",
           webapp: "https://www.piclumen.com/"
         }, 
         {
           id: "4",
-          ontop: 1,
+          ontop: 0,
           image: "/image/virtual-voice-assistant.png",
           title: "Virtual Voice Assistant",
-          description: "Virtual Voice Assistant is a project that utilizes machine learning and " + 
-          "natural language processing to enable users to control their devices using voice commands. " + 
-          "Technologies used include TensorFlow, Keras, various Python libraries and RESTful APIs.",
-          tags: ["Python", "OpenAI", "NLP", "AI Agent", "Speech-to-Text", "Nuxt.js"],
+          description: "A virtual voice assistant that can help you with a variety of tasks. " + 
+          "This project utilizes machine learning and natural language processing to create a natural and intuitive experience for users. " + 
+          "With Virtual Voice Assistant, it will enable you to can easily interact with your computer by simply speaking to it.",
+          responsibilities: [
+            "Researched the most suitable STT AI model to be integrated to system, architectured system based AssemblyAI service.",
+            "Made capability between AssemblyAI' s LaMUR model and LLM (LLaMA 3), compleleted that integration of it.",
+            "Strengthen natural language understanding ability of system, by utilizing GPT model, increased fixiblility of response act."
+          ],
+          tags: ["Python", "OpenAI", "NLP", "AI Agent", "Speech-to-Text", "React"],
           date: "Apr 2021 - Aug 2021",
           github: "https://github.com/smart-coder997/virtual-voice-assistant",
+        },
+        {
+          id: "5",
+          ontop: 1,
+          image: "/image/yatmatch.png",
+          title: "YATMATCH",
+          description: "Yatmatch is a platform which brings yachts and people together. " + 
+          "This is for Owners, buyers and brokers. The platform does provide other automation settings and tools to help user find potential buyer or seller.",
+          responsibilities: [
+            "Architectured entire system, and designed and implemented seamless and user-friendly frontend with React.",
+            "For efficient data flow management, Established Object Relation Mapping(ORM) system, entirely by utilizing SQLAlchemy + AsyncIO.",
+            "Kept providing data privately to each user, while focusing on privacy by utilizing (Django RESTful Framework)DRF authentication.",
+          ],
+          tags: ["Django RESTful Framework(DRF)","React", "Tailwind CSS", "PostgreSQL"],
+          date: "Mar 2017 - Nov 2017",
+          webapp: "https://yatmatch.com/"
+        },
+        {
+          id: "7",
+          ontop: 1,
+          image: "/image/kyber.jpg",
+          title: "Kyber - AI workflow for insurance industry",
+          description: "AI-driven workflow designed for the insurance industry, focusing on the drafting, reviewing, and sending of complex insurance notices. " + 
+          "Built specifically for claims adjusters and insurance professionals, it streamlines the notice creation process by enabling users to create and " + 
+          "customize documents using ready-made or bespoke templates.",
+          responsibilities: [
+            "Developed Kyber' s AI Copilot as GenAI - RAG powered editing assistant by utilizing LangChain, and GPT model.",
+            "Based on detailed requirements, Improved editing and refining Claim Notice by integrating AI Copilot to Kyber platform.",
+            "Completed various innovative features, including choosing Claim template, pre-fill information based on previous information.",
+          ],
+          tags: ["Langchain", "ChatGPT", "LLaMA", "RAG", "Pinecone", "React", "MongoDB"],
+          date: "Nov 2021 - Apr 2022",
+          webapp: "https://www.askkyber.com/"
         }
       ],
       education: [
@@ -251,7 +310,8 @@ const App = () => {
           "dedicating significant effort to mastering Python and its scientific libraries, " + 
           "while also exploring backend technologies like Django and Flask to enhance my web development skills."
         },
-      ]
+      ],
+      linkedin: "https://www.linkedin.com/in/gustavo-pacheco28/"
     })
   }, []);
 
