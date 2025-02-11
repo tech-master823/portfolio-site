@@ -258,7 +258,7 @@ const App = () => {
         {
           id: "5",
           ontop: 1,
-          image: "/image/yatmatch.png",
+          image: "/image/YATMATCH.png",
           title: "YATMATCH",
           description: "Yatmatch is a platform which brings yachts and people together. " + 
           "This is for Owners, buyers and brokers. The platform does provide other automation settings and tools to help user find potential buyer or seller.",
