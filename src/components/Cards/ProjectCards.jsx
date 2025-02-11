@@ -234,7 +234,7 @@ const ProjectCards = ({ project, setOpenModal }) => {
                     )}
 
                     <SocialMediaIcon 
-                        href={githubsponslink} 
+                        href={""} 
                         target="_blank" 
                         aria-label="GitHub Sponsors page"
                         onClick={handleIconClick}

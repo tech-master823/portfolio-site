@@ -32,6 +32,8 @@ const App = () => {
         name: "Gustavo Oliveira P",
         roles: "Python & AI Specialist",
         resume: "https://flowcv.com/resume/ql3le7bs5b",
+        linkedin: "https://www.linkedin.com/in/gustavo-pacheco28/",
+        github: "https://github.com/tech-master823/", 
         description: "Senior Python Developer with expertise in robust web applications and AI solutions. " + 
         "Proficient in Django, Flask, and modern frontend frameworks like React and Vue.js. " + 
         "Experienced in delivering scalable, secure full-stack apps and deploying on AWS, Azure, and GCP. " + 
@@ -205,19 +207,19 @@ const App = () => {
         {
           id: "2",
           ontop: 1,
-          image: "/image/chatbotsoc.png",
-          title: "ChatSoc",
-          description: "Developed 'ChatSoC,' an advanced chatbot using OpenAI's API in Python, " + 
-          "featuring capabilities such as text-to-voice output, voice-to-text input, " + 
-          "QR login mechanism using OpenCV, AI image generation with DALL-E, YouTube video downloading, and Wikipedia content referencing.",
+          image: "/image/healthcare.png",
+          title: "Health.ai - Healthcare AI Assistant",
+          description: "Innovative AI Assistant system be able to medical consultant with patient based on rich expert medical knowledge. " + 
+          "Simulating a dialogue with the patient can offer tailored health advice, suggest diagnoses, " + 
+          "and recommend actions based on their specific symptoms and medical history.",
           responsibilities: [
-            "Developed backend logic using Python to power chatbot functionalities.",
-            "Integrated OpenAI API for conversational AI and DALL·E for AI-generated image capabilities.",
-            "Developed a QR login system for secure user access and integrated a YouTube video downloading feature."
+            "Designed modern and seamless UI for showing AI assistant' s response more visually and comfortable with Next.js.",
+            "Implemented entire RAG architecture for AI healthcare assistant system, and embeded AI Speech-To-Text and Text-To-Speech feature.",
+            "Established large amount of meidcal knowledge base, and trained GPT model with it, by utilizing Langchain, LLaMA and Vector DB(Pinecone).",
           ],
-          tags: ["Python", "NLP", "OpenAI GPT", "Langchain", "DALL-E", "Pinecone"],
-          date: "Jul 2023 - Sept 2023",
-          github: "https://github.com/smart-coder997/ChatSoc",
+          tags: ["Langchain", "ChatGPT", "LLaMA", "RAG", "Pinecone", "Next.js"],
+          date: "Nov 2021 - Apr 2022",
+          github: "https://github.com/tech-master823/Healthcare-consulting-system"
         }, 
         {
           id: "3",
@@ -251,7 +253,7 @@ const App = () => {
           ],
           tags: ["Python", "OpenAI", "NLP", "AI Agent", "Speech-to-Text", "React"],
           date: "Apr 2021 - Aug 2021",
-          github: "https://github.com/smart-coder997/virtual-voice-assistant",
+          github: "https://github.com/tech-master823/AI-voice-assistant",
         },
         {
           id: "5",
@@ -285,7 +287,24 @@ const App = () => {
           tags: ["Langchain", "ChatGPT", "LLaMA", "RAG", "Pinecone", "React", "MongoDB"],
           date: "Nov 2021 - Apr 2022",
           webapp: "https://www.askkyber.com/"
-        }
+        },
+        {
+          id: "8",
+          ontop: 0,
+          image: "/image/chatbotsoc.png",
+          title: "ChatSoc",
+          description: "Developed 'ChatSoC,' an advanced chatbot using OpenAI's API in Python, " + 
+          "featuring capabilities such as text-to-voice output, voice-to-text input, " + 
+          "QR login mechanism using OpenCV, AI image generation with DALL-E, YouTube video downloading, and Wikipedia content referencing.",
+          responsibilities: [
+            "Developed backend logic using Python to power chatbot functionalities.",
+            "Integrated OpenAI API for conversational AI and DALL·E for AI-generated image capabilities.",
+            "Developed a QR login system for secure user access and integrated a YouTube video downloading feature."
+          ],
+          tags: ["Python", "NLP", "OpenAI GPT", "Langchain", "DALL-E", "Pinecone"],
+          date: "Jul 2023 - Sept 2023",
+          github: "https://github.com/tech-master823/ChatSoc",
+        },
       ],
       education: [
         {
@@ -311,7 +330,6 @@ const App = () => {
           "while also exploring backend technologies like Django and Flask to enhance my web development skills."
         },
       ],
-      linkedin: "https://www.linkedin.com/in/gustavo-pacheco28/"
     })
   }, []);
 
