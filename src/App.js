@@ -31,7 +31,7 @@ const App = () => {
       Bio: {
         name: "Gustavo Oliveira P",
         roles: "Python & AI Specialist",
-        resume: "https://flowcv.com/resume/ql3le7bs5b",
+        resume: "https://app.enhancv.com/share/56d521b5/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic",
         linkedin: "https://www.linkedin.com/in/gustavo-pacheco28/",
         github: "https://github.com/tech-master823/", 
         description: "Senior Python Developer with expertise in robust web applications and AI solutions. " + 
