@@ -344,7 +344,7 @@ const App = () => {
           degree: "Master of Technology - MTech, Artificial Intelligent",
           img: "/icons/fgv-university.jfif",
           date: "Aug 2020 – Nov 2021",
-          grade: "87.83%",
+          grade: "3.6/4.0",
           desc: "In this course, I focused on developing an AI web service platform using " + 
           "technologies like OpenAI, GPT, LLM, and Machine Learning, enhancing user experience and automating tasks through projects and collaboration with peers, " + 
           "focusing on natural language processing and computer vision for customized services."
@@ -355,7 +355,7 @@ const App = () => {
           degree: "Bachelor of Computer Science (UNIPAMPA)",
           img: "/icons/can-tho-university.png",
           date: "Mar 2008 – Dec 2012",
-          grade: "97.76%",
+          grade: "3.7/4.0",
           desc: "I gained in-depth knowledge of programming languages like C++, Python, PHP, C#, Java and JavaScript, " + 
           "dedicating significant effort to mastering Python and its scientific libraries, " + 
           "while also exploring backend technologies like Django and Flask to enhance my web development skills."
