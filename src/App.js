@@ -160,7 +160,7 @@ const App = () => {
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
           date: "Feb 2020 - Present",
-          skills: ["Django", "FastAPI", "ASP.NET", "Spring Boot", "Nest.js", "R", "OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "Docker"]
+          skills: ["Django", "FastAPI", "ASP.NET", "Spring Boot", "Nest.js", "R", "OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "GCP", "Docker"]
         },
         {
           id: "2",
@@ -171,7 +171,7 @@ const App = () => {
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
           date: "Jan 2016 – Sept 2021",
-          skills: ["Django", "Spring Boot", "ASP.NET", "Laravel", "React", "Vue.js", "Angular", "OpenAI", "Docker", "Kubernetes"]
+          skills: ["Django", "Spring Boot", "ASP.NET", "Laravel", "React", "Vue.js", "Angular", "AWS", "Azure", "OpenAI", "Docker", "Kubernetes"]
         }, 
         {
           id: "3",
