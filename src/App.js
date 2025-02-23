@@ -159,7 +159,7 @@ const App = () => {
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
-          date: "Mar 2020 - Present",
+          date: "Feb 2020 - Present",
           skills: ["Django", "FastAPI", "ASP.NET", "Spring Boot", "Nest.js", "R", "OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "Docker"]
         },
         {
@@ -170,7 +170,7 @@ const App = () => {
           desc: "Contributed to Architect and develop multiple web applications, " + 
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
-          date: "Jan 2016 – Dec 2019",
+          date: "Jan 2016 – Sept 2021",
           skills: ["Django", "Spring Boot", "ASP.NET", "Laravel", "React", "Vue.js", "Angular", "OpenAI", "Docker", "Kubernetes"]
         }, 
         {
@@ -354,7 +354,7 @@ const App = () => {
           school: "Can Tho University of Technology",
           degree: "Bachelor of Computer Science (UNIPAMPA)",
           img: "/icons/can-tho-university.png",
-          date: "Mar 2010 – Dec 2014",
+          date: "Mar 2008 – Dec 2012",
           grade: "97.76%",
           desc: "I gained in-depth knowledge of programming languages like C++, Python, PHP, C#, Java and JavaScript, " + 
           "dedicating significant effort to mastering Python and its scientific libraries, " + 
