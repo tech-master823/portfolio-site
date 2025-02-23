@@ -71,7 +71,7 @@ const App = () => {
           title: "Frontend",
           skills: [
             { name: "HTML5", image: "/icons/html-5-svg.svg" }, 
-            { name: "CSS3", image: "/icons/html-5-svg.svg" }, 
+            { name: "CSS3", image: "/icons/css.svg" }, 
             { name: "React", image: "/icons/react-svg.svg" }, 
             { name: "Next.js", image: "/icons/nextjs-svg.svg" }, 
             { name: "Vue.js", image: "/icons/vue-svg.svg" },
