@@ -171,7 +171,7 @@ const App = () => {
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
           date: "Jan 2016 – Sept 2021",
-          skills: ["Django", "Spring Boot", "ASP.NET", "Laravel", "React", "Vue.js", "Angular", "AWS", "Azure", "OpenAI", "Docker", "Kubernetes"]
+          skills: ["Django", "Spring Boot", "ASP.NET", "Laravel", "React", "Vue.js", "Angular", "Next.js", "AWS", "Azure", "OpenAI", "Docker", "Kubernetes"]
         }, 
         {
           id: "3",
@@ -181,7 +181,7 @@ const App = () => {
           desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
           "including a sophisticated web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
           date: "Jan 2013 – Nov 2015",
-          skills: ["Django", "Flask", "Node.js", "Laravel", "Java", "Tensorflow", "Pandas", "Numpy", "Docker"]
+          skills: ["Django", "Flask", "Node.js", "Laravel", "Java", "React", "Vue.js", "Angular", "Tensorflow", "Pandas", "Numpy", "Docker"]
         }
       ],
       projects: [
