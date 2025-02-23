@@ -199,7 +199,7 @@ const App = () => {
           ],
           tags: ["Vue.js", "Tailwind CSS", "Laravel", "PostgreSQL"],
           date: "Feb 2017 - Sept 2017",
-          webapp: "https://gavani.com",
+          webapp: "https://gavani.vn",
         },
         {
           id: "9",
