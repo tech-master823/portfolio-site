@@ -41,14 +41,14 @@ const HeroSection = ({ heroData }) => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{heroData?.description}</SubTitle>
-                        <ResumeButton 
+                        {/* <ResumeButton 
                             href={heroData?.resume} 
                             target="_blank" 
                             rel="noopener noreferrer"
                             aria-label="View my resume"
                         >
                             Check My CV
-                        </ResumeButton>
+                        </ResumeButton> */}
                     </HeroLeftContainer>
 
                     <HeroRightContainer>
