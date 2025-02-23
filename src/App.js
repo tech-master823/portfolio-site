@@ -153,9 +153,9 @@ const App = () => {
         // }
         {
           id: "1",
-          company: "IConflux Technologies Pvt. Ltd.",
+          company: "TALRACE",
           role: "Senior Full Stack Developer – AI & Cloud Solutions",
-          img: "/icons/iconflux-company-logo.png",
+          img: "/icons/talrace-logo.jpg",
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
@@ -260,7 +260,7 @@ const App = () => {
           description: "Developed and launched a cutting-edge AI Art Service platform utilizing the Stable Diffusion model and GANs, " + 
           "allowing users to effortlessly do anything related to smart art with simple text prompts and unlocking unparalleled creative possibilities " + 
           "for digital art, advertising, and marketing.",
-          tags: ["Nest.js", "React", "OpenAI", "Stable Diffusion", "GAN"],
+          tags: ["Django RESTful Framework(DRF)", "React", "OpenAI", "Stable Diffusion", "GAN"],
           responsibilities: [
             "Made sure detailed requirements of entire project, and designed seamless and user-friendly frontend with Next.js",
             "Built Python based backend - Django for integrating Stable Diffusion model, and made RESTful API for communicating between frontend and backend.",
@@ -298,7 +298,7 @@ const App = () => {
             "For efficient data flow management, Established Object Relation Mapping(ORM) system, entirely by utilizing SQLAlchemy + AsyncIO.",
             "Kept providing data privately to each user, while focusing on privacy by utilizing (Django RESTful Framework)DRF authentication.",
           ],
-          tags: ["Django RESTful Framework(DRF)","React", "Tailwind CSS", "PostgreSQL"],
+          tags: ["Nest.js","React", "Tailwind CSS", "PostgreSQL"],
           date: "Mar 2017 - Nov 2017",
           webapp: "https://yatmatch.com/"
         },
