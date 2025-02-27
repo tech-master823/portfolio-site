@@ -315,7 +315,7 @@ const App = () => {
             "Based on detailed requirements, Improved editing and refining Claim Notice by integrating AI Copilot to Kyber platform.",
             "Completed various innovative features, including choosing Claim template, pre-fill information based on previous information.",
           ],
-          tags: ["Langchain", "ChatGPT", "Pinecone", "React", "ASP.NET Core", "MongoDB"],
+          tags: ["Django", "React", "Pytorch", "Langchain", "ChatGPT", "Pinecone", "MongoDB"],
           date: "Nov 2021 - Apr 2022",
           webapp: "https://www.askkyber.com/"
         },
