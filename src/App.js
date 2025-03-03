@@ -32,7 +32,7 @@ const App = () => {
         name: "Kauai Santana",
         roles: "Senior Full Stack Developer",
         resume: "https://app.enhancv.com/share/56d521b5/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic",
-        linkedin: "https://www.linkedin.com/in/gustavo-pacheco28/",
+        linkedin: "https://www.linkedin.com/in/kauai-santana-dev/",
         github: "https://github.com/tech-master823/", 
         description: "Senior Full Stack Developer with expertise in robust web applications and AI solutions. " + 
         "Worked on E-Commerce, Saas, Healthcare, etc with Proficiency in Django, FastAPI, Node.js, Spring Boot, ASP.NET, Laravel," + 
