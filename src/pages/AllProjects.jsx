@@ -23,9 +23,7 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
     <>
       <Helmet>
         <title>Projects</title>
-        <meta name="description" content="BE REAL - the portfolio of Kauai Martins Santana, showcasing Web, Machine Learning, Deep Learning, and Python projects." />
-        <meta name="keywords" content="BE REAL, Kauai Martins Santana, AI/ML, Web Development, Portfolio, Projects, kauai, santana" />
-        <meta name="author" content="Kauai Martins Santana" />
+        
 
         {/* Open Graph Data */}
         <meta property="og:title" content="BE REAL - Kauai Martins Santana Portfolio | Projects" />
