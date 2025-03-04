@@ -23,23 +23,21 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
     <>
       <Helmet>
         <title>Projects</title>
-        <meta name="description" content="BE REAL - the portfolio of Gustavo Oliveira P, showcasing Web, Machine Learning, Deep Learning, and Python projects." />
-        <meta name="keywords" content="BE REAL, Gustavo Oliveira P, AI/ML, Web Development, Portfolio, Projects, sibi, siddharth" />
-        <meta name="author" content="Gustavo Oliveira P" />
-        <link rel="canonical" href="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
+        <meta name="description" content="BE REAL - the portfolio of Kauai Martins Santana, showcasing Web, Machine Learning, Deep Learning, and Python projects." />
+        <meta name="keywords" content="BE REAL, Kauai Martins Santana, AI/ML, Web Development, Portfolio, Projects, kauai, santana" />
+        <meta name="author" content="Kauai Martins Santana" />
 
         {/* Open Graph Data */}
-        <meta property="og:title" content="BE REAL - Gustavo Oliveira P Portfolio | Projects" />
+        <meta property="og:title" content="BE REAL - Kauai Martins Santana Portfolio | Projects" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
         <meta property="og:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
-        <meta property="og:description" content="Explore projects developed by Gustavo Oliveira P, showcasing skills in AI/ML and Web Development." />
+        <meta property="og:description" content="Explore projects developed by Kauai Martins Santana, showcasing skills in AI/ML and Web Development." />
 
         {/* Twitter Card Data */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="BE REAL - Projects" />
-        <meta name="twitter:description" content="Explore projects developed by Gustavo Oliveira P." />
-        <meta name="twitter:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
+        <meta name="twitter:description" content="Explore projects developed by Kauai Martins Santana." />
       </Helmet>
 
       <Header 

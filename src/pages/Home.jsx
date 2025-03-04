@@ -25,9 +25,8 @@ const Home = ({ firebaseData, openModal, setOpenModal }) => {
     <>
       <Helmet>
         <title>AI/ML & Web Developer Portfolio</title>
-        <meta name="description" content="Welcome to the portfolio of Gustavo Oliveira P, showcasing skills, projects, and experiences in AI/ML and Web Development." />
-        <meta name="keywords" content="BE REAL, Gustavo Oliveira P, Machine Learning, Python Developer, Frontend Developer, Fullstack Developer, Squad of Creators, Portfolio" />
-        <link rel="canonical" href="https://sibisiddharth8.github.io/portfolio-react/" />
+        <meta name="description" content="Welcome to the portfolio of Kauai Santana, showcasing skills, projects, and experiences in AI/ML and Web Development." />
+        <meta name="keywords" content="BE REAL, Kauai Santana, Machine Learning, Python Developer, Frontend Developer, Fullstack Developer, Squad of Creators, Portfolio" />
       </Helmet>
 
       <Navbar 
