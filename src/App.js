@@ -367,7 +367,7 @@ const App = () => {
         },
         {
           id: "2",
-          school: "Can Tho University of Technology",
+          school: "Ho Chi Minh City University of Technology",
           degree: "Bachelor of Technology - BTech, Compuer Science",
           img: "/icons/hcmut_bachkhoa-logo.jfif",
           date: "May 2008 – Nov 2012",
