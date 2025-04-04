@@ -156,32 +156,46 @@ const App = () => {
           company: "TALRACE",
           role: "Senior Full Stack Developer – AI & Cloud Solutions",
           img: "/icons/talrace-logo.jpg",
+          link: "https://talrace.com/",
           desc: "Actively engaged in developing innovative AI services, " + 
           "including a healthcare chatbot and LLM-powered microservices, " + 
           "with a focus on enhancing data management and user satisfaction through cloud platforms.",
-          date: "Feb 2020 - Present",
-          skills: ["Django", "FastAPI", "ASP.NET", "Spring Boot", "Nest.js", "R", "OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "GCP", "Docker"]
+          date: "Mar 2020 - Present",
+          skills: ["Django", "FastAPI", "ASP.NET Core", "Spring Boot", "Nest.js", "R", "OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "GCP", "Docker"]
         },
         {
           id: "2",
-          company: "Synodus",
+          company: "HDWEBSOFT",
           role: "Full Stack Developer",
-          img: "/icons/synodus-company-logo.jpg",
+          img: "/icons/hdwebsoft-logo.jfif",
+          link: "https://www.hdwebsoft.com",
           desc: "Contributed to Architect and develop multiple web applications, " + 
           "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
           "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
-          date: "Jan 2016 – Sept 2021",
-          skills: ["Django", "Spring Boot", "ASP.NET", "Laravel", "React", "Vue.js", "Angular", "Next.js", "AWS", "Azure", "OpenAI", "Docker", "Kubernetes"]
+          date: "Jan 2017 - Oct 2021",
+          skills: ["Django", "Spring Boot", "ASP.NET Core", "Node.js", "Laravel", "React", "Vue.js", "Angular", "Next.js", "AWS", "Azure", "OpenAI", "Docker", "Kubernetes"]
         }, 
         {
           id: "3",
           company: "CodLUCK Technology ., JSC",
-          role: "Software Developer",
+          role: "Frontend Developer",
           img: "/icons/codluck-company-logo.jpg",
+          link: "https://codluck.com/",
           desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
           "including a sophisticated web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
-          date: "Jan 2013 – Nov 2015",
-          skills: ["Django", "Flask", "Node.js", "Laravel", "Java", "React", "Vue.js", "Angular", "Tensorflow", "Pandas", "Numpy", "Docker"]
+          date: "Feb 2014 - Nov 2016",
+          skills: ["HTML", "CSS", "Typescript", "Angular", "React", "Bootstrap", "Material UI"]
+        },
+        {
+          id: "4",
+          company: "ITC Group",
+          role: "Software Developer Intern",
+          img: "/icons/itcgroup-logo.jfif",
+          link: "https://www.itcgroup.io/",
+          desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
+          "including a sophisticated web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
+          date: "Feb 2012 - Nov 2014",
+          skills: ["HTML", "CSS", "Javascript", "jQuery", "C#", ".NET Core", "Python", "Numpy", "PHP", "Git"]
         }
       ],
       projects: [
@@ -197,7 +211,7 @@ const App = () => {
             "Implement secure payments, comply with data privacy laws, and establish user authentication to protect sensitive information.",
             "Kept providing data privately to each user, while focusing on privacy by utilizing (Django RESTful Framework)DRF authentication.",
           ],
-          tags: ["Vue.js", "Tailwind CSS", "Laravel", "PostgreSQL"],
+          tags: ["Vue.js", "Tailwind CSS", "Laravel", "Shopify", "PostgreSQL"],
           date: "Feb 2017 - Sept 2017",
           webapp: "https://gavani.vn",
         },
@@ -343,7 +357,7 @@ const App = () => {
           school: "FGV/EBAPE",
           degree: "Master of Technology - MTech, Artificial Intelligent",
           img: "/icons/fgv-university.jfif",
-          date: "Aug 2020 – Nov 2021",
+          date: "Aug 2021 – Nov 2022",
           grade: "3.6/4.0",
           desc: "In this course, I focused on developing an AI web service platform using " + 
           "technologies like OpenAI, GPT, LLM, and Machine Learning, enhancing user experience and automating tasks through projects and collaboration with peers, " + 
@@ -352,9 +366,9 @@ const App = () => {
         {
           id: "2",
           school: "Can Tho University of Technology",
-          degree: "Bachelor of Computer Science (UNIPAMPA)",
-          img: "/icons/can-tho-university.png",
-          date: "Mar 2008 – Dec 2012",
+          degree: "Bachelor of Technology - BTech, Compuer Science",
+          img: "/icons/hcmut_bachkhoa-logo.jfif",
+          date: "May 2008 – Nov 2012",
           grade: "3.7/4.0",
           desc: "I gained in-depth knowledge of programming languages like C++, Python, PHP, C#, Java and JavaScript, " + 
           "dedicating significant effort to mastering Python and its scientific libraries, " + 
