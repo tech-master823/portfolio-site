@@ -157,9 +157,10 @@ const App = () => {
           role: "Senior Full Stack Developer – AI & Cloud Solutions",
           img: "/icons/talrace-logo.jpg",
           link: "https://talrace.com/",
-          desc: "Actively engaged in developing innovative AI services, " + 
-          "including a healthcare chatbot and LLM-powered microservices, " + 
-          "with a focus on enhancing data management and user satisfaction through cloud platforms.",
+          desc: "I served as a Senior Full Stack Developer, " + 
+          "where I played a crucial role in designing and developing innovative web applications " + 
+          "and platforms support cutting edge Generative AI (OpenAI, LLM, GPT, RAG, Pinecone) " + 
+          "and Cloud (AWS, Azure, Google Cloud Platform) solution. ",
           date: "Mar 2020 - Present",
           skills: ["Django", "FastAPI", "ASP.NET Core", "Spring Boot", "Nest.js", "R", "OpenAI", "GPT", "Langchain", "LLaMA 3", "AWS", "Azure", "GCP", "Docker"]
         },
@@ -169,11 +170,10 @@ const App = () => {
           role: "Full Stack Developer",
           img: "/icons/hdwebsoft-logo.jfif",
           link: "https://www.hdwebsoft.com",
-          desc: "Contributed to Architect and develop multiple web applications, " + 
-          "including an ERP system and a scalable e-commerce platform utilzing innovative AI strategies, " + 
-          "while establishing CI/CD pipelines with Docker and Kubernetes, resulting in reduced project deployment time, and enhanced productivity and quality of code.",
+          desc: "I worked as a Full Stack Developer, focusing on the development of innovative medium to large-scale web and mobile applications " + 
+          "and service platforms such as eCommerce, Healthcare EDI and etc. During this career, I worked with Frontend (Typescript) and Backend (Node.js, Python, C#, Java) development",
           date: "Jan 2017 - Oct 2021",
-          skills: ["Django", "Spring Boot", "ASP.NET Core", "Node.js", "Laravel", "React", "Vue.js", "Angular", "Next.js", "AWS", "Azure", "OpenAI", "Docker", "Kubernetes"]
+          skills: ["Django", "Spring Boot", "ASP.NET Core", "Node.js", "React", "Vue.js", "Angular", "Next.js", "AWS", "Azure", "OpenAI", "Docker", "Kubernetes"]
         }, 
         {
           id: "3",
@@ -181,8 +181,10 @@ const App = () => {
           role: "Frontend Developer",
           img: "/icons/codluck-company-logo.jpg",
           link: "https://codluck.com/",
-          desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
-          "including a sophisticated web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
+          desc: "I’m passionate about creating engaging web and mobile applications, " + 
+          "focusing on quality and user experience. I love collaborating with designers on " + 
+          "UI/UX and using technologies like HTML, CSS, JavaScript, and frameworks such as " + 
+          "React, Angular, and Vue.js, while ensuring our code remains clean and maintainable.",
           date: "Feb 2014 - Nov 2016",
           skills: ["HTML", "CSS", "Typescript", "Angular", "React", "Bootstrap", "Material UI"]
         },
@@ -192,8 +194,8 @@ const App = () => {
           role: "Software Developer Intern",
           img: "/icons/itcgroup-logo.jfif",
           link: "https://www.itcgroup.io/",
-          desc: "Enhanced data accuracy, processing speed, and revenue growth by spearheading innovative data solutions, " + 
-          "including a sophisticated web scraper, efficient data pipelines, and a predictive model for client churn that transformed business strategies.",
+          desc: "I collaborated with the development team to design, develop, and test software applications, ensuring functionality and usability. " + 
+          "Also, I participated in code reviews, wrote optimized database queries, and contributed to technical documentation.",
           date: "Feb 2012 - Nov 2014",
           skills: ["HTML", "CSS", "Javascript", "jQuery", "C#", ".NET Core", "Python", "Numpy", "PHP", "Git"]
         }
